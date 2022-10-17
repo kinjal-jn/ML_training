@@ -47,6 +47,7 @@ ttk.OptionMenu(app, col1,*values).place(x=150,y=180)
 def show():
     print(graphs.get())
     print(col1.get())
+    g= graphs.get()
 
 ttk.Button(app, text='Show', command=show).place(x=400,y=10)
 
