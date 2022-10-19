@@ -5,7 +5,7 @@ import tkinter as ttk
 data= pd.read_csv('treadmil-users.csv')
 app= ttk.Tk()
 app.geometry('600x300')
-app.title('treadmil users analysis')
+app.title(r'C:\Users\admin\Desktop\ML training\Day20\treadmil-users.csv')
 
 ## radio button
 graphs= ttk.Variable(app)
